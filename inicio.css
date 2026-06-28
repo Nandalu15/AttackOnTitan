@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(247, 221, 180);
+}
+
+header {
+    background-color: rgb(69, 46, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo :hover{
+    transform: translateY(-5px);
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3c2923;
+}
+
+.links a:hover{
+    color: chocolate;
+    transform: translateY(-5px);
+}
+
+nav a:hover {
+    color: rgb(145, 136, 134);
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 50%;
+}
+.banner :hover{
+    transform: translateY(-2px);
+}
+.banner img:hover{
+    width: 590px;
+    height: auto;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.banner p {
+    font-size: 30px;
+    color: #35251e;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.banner2 {
+    text-align: center;
+    padding: 200px 20px;
+    margin-bottom: 40px;
+    background-image: url('backzinho.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;         
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.secao {
+    margin-bottom: 50px;
+}
+
+.secao h1 {
+    font-size: 55px;
+    color: #604e3a;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #604e3a;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.secao h2 {
+    color: #928b61;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #928b61;
+    padding-bottom: 10px;
+}
+
+.secao article {
+    margin-bottom: 20px;
+}
+
+.secao article h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    text-align: justify;
+    background-color: rgb(228, 202, 161);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 25px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgb(228, 202, 161);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    width: 100%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner:hover {
+    transform: translateY(-5px);
+    background-color: rgb(216, 193, 154);
+}
+
+.conteiner p {
+    font-size: 18px;
+    color: #584235;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.conteiner img:hover{
+    width: 250px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto; 
+}
+.slides, .foto {
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.foto {
+    display: none;
+}
+
+.foto.ativo {
+    display: block;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.seta:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.anterior { left: 0; border-radius: 0 5px 5px 0; }
+.proximo { right: 0; border-radius: 5px 0 0 5px; }
+
+#Topo {
+    position: fixed;     
+    bottom: 20px;      
+    right: 20px;     
+    z-index: 99;       
+    background-color: rgb(69, 46, 40); 
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#Topo:hover {
+    background-color: rgb(145, 136, 134); 
+}
+
+.momentosMarcantes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.momentosMarcantes h2{
+    font-size: 50px;
+    color: #35251e;
+    text-decoration: underline;
+}
+.momentosMarcantes h2:hover{
+    color: rgb(152, 79, 27);
+    transform: translateY(-5px);
+}
+
+
+.momentosMarcantes a {
+    font-size: 30px;
+    color: #3c2923;
+}
+
+.momentosMarcantes a:hover{
+    color: chocolate;
+    transform: translateX(-5px);
+}

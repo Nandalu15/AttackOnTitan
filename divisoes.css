@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(247, 221, 180);
+}
+
+header {
+    background-color: rgb(69, 46, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: rgb(145, 136, 134);
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 100%;
+}
+
+.separacao {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: justify;
+    font-size: large;
+    margin-bottom: 35px;
+}
+
+.separacao :hover{
+    transform: translateY(-5px);
+    filter: brightness(0.80);
+}
+
+.separacao h3 {
+    margin-bottom: 10px;
+    color: #3c2923;
+}
+
+.mapa img{
+    width: 950px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.mapa h2 {
+    font-size: 40px;
+    color: #604e3a;
+    margin-bottom: 20px;
+    border-bottom: 6px solid #604e3a;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.mapa h3{
+    font-size: 25px;
+    color: #604e3a;
+    margin-bottom: 20px;
+    border-bottom: 6px solid #604e3a;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.mapa p {
+    font-size: 25px;
+    color: #604e3a;
+}
+.cardcoisas img {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    
+}
+
+.cardcoisas {
+    .walls {
+    display: block;
+    margin-bottom: 15px;
+}
+}
+
+.walls {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: filter 0.3s ease;
+}
+
+.walls:hover {
+    filter: brightness(0.75);
+    cursor: pointer;
+}
+
+.secao h2 {
+    color: #604e3a;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #604e3a;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#Topo {
+    position: fixed;     
+    bottom: 20px;      
+    right: 20px;     
+    z-index: 99;       
+    background-color: rgb(69, 46, 40); 
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#Topo:hover {
+    background-color: rgb(145, 136, 134); 
+}
+
+.mapa :hover{
+        transform: translateY(-5px);
+}
